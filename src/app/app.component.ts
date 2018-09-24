@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { BasicHighlightDirective } from './shared/basic-highlight/basic-highlight.directive';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
