@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { DropdownDirective } from './dropdown.directive';
 import { BasicHighlightDirective } from './basic-highlight/basic-highlight.directive';
 import { BetterHighlightDirective } from './better-highlight/better-highlight.directive';
+import { UnlessDirective } from './unless/unless.directive';
 
 @NgModule({
   imports: [
@@ -12,12 +13,14 @@ import { BetterHighlightDirective } from './better-highlight/better-highlight.di
   declarations: [
     DropdownDirective,
     BasicHighlightDirective,
-    BetterHighlightDirective
+    BetterHighlightDirective,
+    UnlessDirective
   ],
   exports: [
     DropdownDirective,
     BasicHighlightDirective,
-    BetterHighlightDirective
+    BetterHighlightDirective,
+    UnlessDirective
   ]
 })
 export class SharedModule { }
